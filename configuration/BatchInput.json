@@ -1,0 +1,26 @@
+[
+	{
+		"users" : 1000,
+		"maxLinkPerNode" : 10,
+		"initiallyInfected" : 2,
+		"probInfect" : 0.01,
+		"probAcceptDeny" : 0.01,
+		"probMakeDenier" : 0.01
+	},
+	{
+		"users" : 1000,
+		"maxLinkPerNode" : 10,
+		"initiallyInfected" : 2,
+		"probInfect" : 0.015,
+		"probAcceptDeny" : 0.01,
+		"probMakeDenier" : 0.01
+	},
+	{
+		"users" : 1000,
+		"maxLinkPerNode" : 10,
+		"initiallyInfected" : 2,
+		"probInfect" : 0.02,
+		"probAcceptDeny" : 0.01,
+		"probMakeDenier" : 0.01
+	},
+]

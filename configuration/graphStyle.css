@@ -1,0 +1,54 @@
+node {
+    fill-color: DodgerBlue;
+    size: 8px;
+    stroke-mode: plain;
+    stroke-color: black;
+    stroke-width: 1px;
+	text-visibility-mode: hidden;
+}
+
+
+node.highlighted {
+ fill-color: cyan;
+ size: 15px;
+}
+
+node.denier {
+ fill-color: green;
+ size: 10px;
+}
+
+node.gossip {
+ fill-color: red;
+ size: 10px;
+}
+
+
+/*Styles for SpreadModelM1
+They affect just representation, the state in the model is a variable wich does not change if, 
+for example, nodes are highlited putting  the class highlight
+*/
+node.INFECTED {
+ fill-color: red;
+}
+
+
+node.BEACONOFF {
+ shape: box;
+ fill-color: Blue;
+}
+
+node.BEACONON {
+ shape: box;
+ fill-color: DarkGreen;
+}
+
+node.VACCINATED {
+ fill-color: DarkGreen;
+}
+
+node.CURED {
+ fill-color: green;
+}
+
+

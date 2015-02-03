@@ -1,0 +1,6 @@
+
+*.class
+*.ubiksim
+build/
+dist/
+

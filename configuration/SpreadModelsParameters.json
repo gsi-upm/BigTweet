@@ -1,0 +1,124 @@
+{
+	"generalParameters": ["users", "seed", "maxLinkPerNode", "seedNetwork"],
+	"M1Paraemeters": ["timeLag", "initiallyInfected", "probInfect", "probAcceptDeny", "beacons", "beaconLinksNumber", "beaconLinksCentrality"],
+	"M2Paraemeters": ["probMakeDenier", "initiallyInfected", "probInfect" , "probAcceptDeny", "beacons", "beaconLinksNumber", "beaconLinksCentrality"],
+	"spreadModels":{
+		"M1":{
+			"description": "Model basesed on paper by Tripathy et al.: A Study of Rumor Control Strategies on Social Networks. See SpreadModelM1 class documentation", 
+			"selectedSetOfParametersValues": "bestPalin",
+			"setsOfParametersValues": {
+				"custom": { 
+					"description": "Custom parameters",					
+					"initiallyInfected":10,
+					"probInfect": 0.5,
+					"timeLag": 20, 
+					"probAcceptDeny": 0.5,
+					"beacons": 0
+				},
+				"paper": { 
+					"description": "Parameters values given in the paper",		
+					"initiallyInfected":10,
+					"probInfect": 0.02,
+					"timeLag": 20, 
+					"probAcceptDeny": 0.05,
+					"beacons": 0
+				}
+				
+				"bestObama": { 
+					"description": "best parameters for obama",	
+					"users": 1000,
+				    "maxLinkPerNode": 10,
+					"initiallyInfected":2,
+					"probInfect": 0.01,
+					"probAcceptDeny": 0.015,	
+					"timeLag": 6,
+					"seed":4,
+					"seedNetwork": 4,					
+				},
+				"bestPalin": { 
+					"description": "best parameters for palin",	
+					"users": 1000,
+				    "maxLinkPerNode": 10,
+					"initiallyInfected":2,
+					"probInfect": 0.01,
+					"probAcceptDeny": 0.065,
+					"timeLag": 1,						
+					"seed":5,
+					"seedNetwork": 5,
+				},
+			}
+		},		
+		"M2":{
+			"description": "Extension of M1 to limit the influence of the initial conditions (specifically, the infected and beacons)", 
+			"selectedSetOfParametersValues": "bestPalin",
+			"setsOfParametersValues": {
+				"custom": { 
+					"description": "Custom parameters",					    
+					"users": 10,
+				    "maxLinkPerNode": 5,
+					"initiallyInfected":2,
+					"probInfect": 0.2,
+					"probAcceptDeny": 0.01,
+					"probMakeDenier": 0.001,
+					"beacons": 0,		
+					"seed":4,
+					"seedNetwork": 4,
+					"beaconLinksNumber": 10,
+					"beaconLinksCentrality": "b",
+				},
+				"bestObama": { 
+					"description": "best parameters for obama",	
+					"users": 1000,
+				    "maxLinkPerNode": 10,
+					"initiallyInfected":2,
+					"probInfect": 0.025,
+					"probAcceptDeny": 0.015,
+					"probMakeDenier": 0.01,
+					"beacons": 0,		
+					"seed":15,
+					"seedNetwork": 15,					
+				},
+				"bestPalin": { 
+					"description": "best parameters for palin",	
+					"users": 1000,
+				    "maxLinkPerNode": 10,
+					"initiallyInfected":2,
+					"probInfect": 0.02,
+					"probAcceptDeny": 0.01,
+					"probMakeDenier": 0.01,
+					"beacons": 0,		
+					"seed":4,
+					"seedNetwork": 4,
+				},
+				"bestPalinFine": { 
+					"description": "best parameters for palin",	
+					"users": 1000,
+				    "maxLinkPerNode": 10,
+					"initiallyInfected":2,
+					"probInfect": 0.016,
+					"probAcceptDeny": 0.019,
+					"probMakeDenier": 0.002,
+					"beacons": 0,		
+					"seed":11,
+				},
+			},
+		},
+		"M3":{
+			"description": "Extension of M2 to make beacons follow neighbours which can spread infection", 
+			"selectedSetOfParametersValues": "custom",
+			"setsOfParametersValues": {
+				"custom": { 
+					"description": "Custom parameters",					    
+					"users": 1000,
+				    "maxLinkPerNode": 1,
+					"initiallyInfected":2,
+					"probInfect": 0.2,
+					"probAcceptDeny": 0.01,
+					"probMakeDenier": 0.001,
+					"beaconLinksNumber": 5,
+					"beaconLinksCentrality": "b",			
+				},		
+			},			
+		}	
+	}	
+}
