@@ -3,4 +3,5 @@
 *.ubiksim
 build/
 dist/
+bin/
 
