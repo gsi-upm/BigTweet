@@ -1,14 +1,14 @@
 This file is part of BigTweet. 
 
-BigTweet has been developed by members of the research Group on 
-Intelligent Systems [GSI] (Grupo de Sistemas Inteligentes), 
-acknowledged group by the Universidad Politécnica de Madrid [UPM] 
-(Technical University of Madrid).
+BigTweet has been developed by members of the research Group on Intelligent Systems, 
+Grupo de Sistemas Inteligentes (GSI), acknowledged group by the  Technical University of Madrid, 
+Universidad Politécnica de Madrid (UPM).
 
 Authors:
-Mercedes Garijo
-Carlos A. Iglesias
 Emilio Serrano
+Carlos A. Iglesias
+Mercedes Garijo
+
  
 Contact: 
 http://www.gsi.dit.upm.es/;

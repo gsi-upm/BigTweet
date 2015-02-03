@@ -5,7 +5,7 @@ BigTweet is an agent-based social simulator for rumor spreading models and rumor
 ![alt tag](https://raw.githubusercontent.com/gsi-upm/BigTweet/master/BigTweetGUI.png?token=AC0JInkOjvcdl9aBIo9jjXbtLdbN4vcIks5U2j6uwA%3D%3D)
 
 
-BigTweet has been developed by members of the research Group on Intelligent Systems [GSI] (Grupo de Sistemas Inteligentes), acknowledged group by the Universidad Politécnica de Madrid [UPM] (Technical University of Madrid).
+BigTweet has been developed by members of the research Group on Intelligent Systems, Grupo de Sistemas Inteligentes (GSI), acknowledged group by the  Technical University of Madrid, Universidad Politécnica de Madrid (UPM).
 
  * Emilio Serrano
  * Carlos A. Iglesias
