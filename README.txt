@@ -4,6 +4,12 @@ BigTweet has been developed by members of the research Group on Intelligent Syst
 Grupo de Sistemas Inteligentes (GSI), acknowledged group by the  Technical University of Madrid, 
 Universidad Politécnica de Madrid (UPM).
 
+Palin and Obama datasets are based on the work by Qazvinian et al. Researchers interested in the original dataset can request them to these authors. We want to thank the authors for their cooperation in this research.
+
+V. Qazvinian, E. Rosengren, D.R. Radev, Q. Mei
+Rumor has it: Identifying misinformation in microblogs
+Proceedings of the conference on empirical methods in natural language processing. EMNLP ’11, Association for Computational Linguistics, Stroudsburg, PA, USA (2011), pp. 1589–159
+
 Authors:
 Emilio Serrano
 Carlos A. Iglesias
