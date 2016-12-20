@@ -2,7 +2,14 @@
 <classpath>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
-	<classpathentry kind="lib" path="C:/data/docsWork/codigo/BigMarketCode/SimulationJava/lib/mason.17.jar"/>
-	<classpathentry kind="lib" path="C:/data/docsWork/codigo/BigMarketCode/SimulationJava/lib/gs-core-1.2.jar"/>
+	<classpathentry kind="lib" path="/home/bigtweet/git/BigTweet/lib/mason.17.jar"/>
+	<classpathentry kind="lib" path="/home/bigtweet/git/BigTweet/lib/gs-core-1.2.jar"/>
+	<classpathentry kind="lib" path="lib/json-simple-1.1.1.jar"/>
+	<classpathentry kind="lib" path="lib/commons-math3-3.0.jar"/>
+	<classpathentry kind="lib" path="lib/gephi-toolkit.jar"/>
+	<classpathentry kind="lib" path="lib/gs-core-1.2.jar"/>
+	<classpathentry kind="lib" path="lib/gs-algo-1.2.jar"/>
+	<classpathentry kind="lib" path="lib/gs-ui-1.2.jar"/>
+	<classpathentry kind="lib" path="lib/RCaller-2.3.0-SNAPSHOT.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

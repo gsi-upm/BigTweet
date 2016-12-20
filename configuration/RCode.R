@@ -3,6 +3,8 @@
 loadDatasets<-function(){
 obama <<- read.table("./configuration/obamaUsers.txt", header=TRUE, sep="\t")
 palin <<- read.table("./configuration/palinUsers.txt", header=TRUE, sep="\t")
+toyota <<- read.table("./configuration/toyotaUsers.txt", header=TRUE, sep="\t")
+ford <<- read.table("./configuration/fordUsers.txt", header=TRUE, sep="\t")
 sim<<- read.table("./output/statesPerAgentAndDay.txt", header=TRUE, sep="\t")
 sim2<<- read.table("./output/statesPerAgentAndStep.txt", header=TRUE, sep="\t")
 }
@@ -56,6 +58,16 @@ plotPalin<-function(){
   loadDatasets()
   getLinearChartComparing(palin, sim)
  
+}
+
+plotToyota<-function(){
+  loadDatasets()
+  getLinearChartComparing(toyota, sim)
+}
+
+plotFord<-function(){
+  loadDatasets()
+  getLinearChartComparing(ford, sim)
 }
 
 
@@ -140,6 +152,18 @@ correlationObama<-function(){
   loadDatasets()
   correlation(obama,sim)
 }
+
+correlationToyota<-function(){
+  loadDatasets()
+  correlation(toyota,sim)
+}
+
+correlationFord<-function(){
+  loadDatasets()
+  correlation(ford,sim)
+}
+
+
 
 
 

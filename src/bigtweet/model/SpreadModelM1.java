@@ -106,8 +106,8 @@ public class SpreadModelM1 extends SpreadModel {
     * States fiven in de paper. Beacons are also added as a sate (on and off if they are activated or not). Denier are also added (to sum all possible denier) and endorser (which are infected)
     */ 
    public static enum State {
-        NEUTRAL,
-        INFECTED,
+        INFECTED,        
+	NEUTRAL,
         VACCINATED,
         CURED,
         BEACONON,

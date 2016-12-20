@@ -5,7 +5,7 @@
 	"spreadModels":{
 		"M1":{
 			"description": "Model basesed on paper by Tripathy et al.: A Study of Rumor Control Strategies on Social Networks. See SpreadModelM1 class documentation", 
-			"selectedSetOfParametersValues": "bestPalin",
+			"selectedSetOfParametersValues": "custom",
 			"setsOfParametersValues": {
 				"custom": { 
 					"description": "Custom parameters",					
@@ -23,7 +23,7 @@
 					"probAcceptDeny": 0.05,
 					"beacons": 0
 				}
-				
+				,
 				"bestObama": { 
 					"description": "best parameters for obama",	
 					"users": 1000,
@@ -35,7 +35,7 @@
 					"seed":4,
 					"seedNetwork": 4,					
 				},
-				"bestPalin": { 
+				"bestPalin": {
 					"description": "best parameters for palin",	
 					"users": 1000,
 				    "maxLinkPerNode": 10,
@@ -50,11 +50,11 @@
 		},		
 		"M2":{
 			"description": "Extension of M1 to limit the influence of the initial conditions (specifically, the infected and beacons)", 
-			"selectedSetOfParametersValues": "bestPalin",
+			"selectedSetOfParametersValues": "bestToyota",
 			"setsOfParametersValues": {
 				"custom": { 
 					"description": "Custom parameters",					    
-					"users": 10,
+					"users": 100,
 				    "maxLinkPerNode": 5,
 					"initiallyInfected":2,
 					"probInfect": 0.2,
@@ -74,6 +74,30 @@
 					"probInfect": 0.025,
 					"probAcceptDeny": 0.015,
 					"probMakeDenier": 0.01,
+					"beacons": 0,		
+					"seed":15,
+					"seedNetwork": 15,					
+				},
+				"bestToyota": { 
+					"description": "best parameters for toyota",	
+					"users": 750,
+				    "maxLinkPerNode": 10,
+					"initiallyInfected":2,
+					"probInfect": 0.00163,
+					"probAcceptDeny": 0.0001,
+					"probMakeDenier": 0.0001,
+					"beacons": 0,		
+					"seed":15,
+					"seedNetwork": 15,					
+				},
+				"bestFord": { 
+					"description": "best parameters for ford",	
+					"users": 835,
+				    "maxLinkPerNode": 1,
+					"initiallyInfected":2,
+					"probInfect": 0.028,
+					"probAcceptDeny": 0.004,
+					"probMakeDenier": 0.004,
 					"beacons": 0,		
 					"seed":15,
 					"seedNetwork": 15,					

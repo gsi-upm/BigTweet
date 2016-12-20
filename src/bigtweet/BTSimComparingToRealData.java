@@ -57,5 +57,7 @@ public class BTSimComparingToRealData extends BTSimBatch {
         resultsForDatasets= new ArrayList<>();
         resultsForDatasets.add(new ComparingToRealData("obama"));
         resultsForDatasets.add(new ComparingToRealData("palin"));
+        resultsForDatasets.add(new ComparingToRealData("toyota"));
+        resultsForDatasets.add(new ComparingToRealData("ford"));
     }
 }
