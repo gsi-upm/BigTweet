@@ -94,7 +94,7 @@ for n in deniesByDay:
 	pos_aux2 = pos_aux2 + 1
 
 #Generating the output in .txt file with the proper structure to can be used as comparing file in BigTweet
-file = open('../output.txt','w+')
+file = open('output.txt','w+')
 file.write('\"endorses\"\t'+'\"denies\"'+'\n')
 pos_aux3 = 0
 file.write(str(endorsesByDayPer[pos_aux3])+'\t'+str(deniesByDayPer[pos_aux3])+'\n')
