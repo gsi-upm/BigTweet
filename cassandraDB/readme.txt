@@ -4,7 +4,8 @@ Before running the script, it's necessary to run a docker with cassandra and tha
 
 docker run --name cassandra -v BigTweet/CassandraDB/cassandra:/var/lib/cassandra -d cassandra
 
-In the case above, we use the directory "cassandra" in this same directory. 
+In the case above, we use the directory "cassandra" in this same directory.
+
 Read the comments in the script to know what values to change for your case.
 
 
