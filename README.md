@@ -15,6 +15,6 @@ BigTweet has been developed by members of the research Group on Intelligent Syst
  
 BigTweet is free software:  you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
 
-Available image .iso to download from MEGA:
+Available image .iso to download:
 https://mega.nz/#!p5Z0SKxL!7ntWSg5D7ITK0GY-P6U-UfQoGsjCNRIU24sU9-e6IxA
 
