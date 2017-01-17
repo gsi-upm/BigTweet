@@ -25,6 +25,7 @@ If you want to install it from the source code, install:
 
 1) Package igraph
 
-2) 
+2) Library libxml2
+sudo apt-get install libxml2-dev
 
 3) Run the system as described in the aboved mentioned documentation.
