@@ -23,7 +23,9 @@ For more info, see https://github.com/gsi-upm/BigTweet/tree/master/documentation
 
 If you want to install it from the source code, install:
 
-1) Package igraph from R (*install.packages("igraph")*)
+1) Package igraph from R 
+** Launch a terminal, type 'R'
+** Execute *install.packages("igraph")*
 
 2) Library libxml2 (*sudo apt-get install libxml2-dev*)
 
