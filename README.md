@@ -26,7 +26,7 @@ If you want to install it from the source code, install:
 1) Package igraph from R 
 
 * Launch a terminal, type 'R'
-* Execute *install.packages("igraph")*
+* Execute *install.packages("igraph")* in the R prompt
 
 2) Library libxml2 (*sudo apt-get install libxml2-dev*)
 
